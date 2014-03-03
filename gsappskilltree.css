@@ -41,7 +41,7 @@ padding: 50px 0px 0px 50px;
 position: fixed;
 top: 0px;
 left: 0px;
-width: 525px;  
+width: 575px;  
 line-height: 16px;
 background-color: #eaeaea;
 height: 100%;
@@ -149,9 +149,9 @@ font-weight: bold;
 
 /* ---------------------------------------------------- Posts ------------------ */
 div.posts {
-margin-left: 600px;
+margin-left: 650px;
 margin-top: 100px;
-width: 500px;
+width: 450px;
 }
 div.posts div.post {
 margin-bottom: 100px;
