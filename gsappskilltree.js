@@ -2,7 +2,7 @@ $(document).ready(function(){
     
     
     
-    var accentColor = "{color:Accent}".replace(/[^0-9A-Za-z]+/g, '');  
+    var accentColor = "fc0452"; //"{color:Accent}".replace(/[^0-9A-Za-z]+/g, '');  
 
     
     console.log(accentColor);
@@ -18,13 +18,12 @@ $(document).ready(function(){
     
       
     var url = document.URL
-    var spliturl = url.split("{Host}");
+    var spliturl = url.split("tumblr.com");
 
     if(spliturl[1] == "/") {
         $("body").addClass("frontpage"); 
     }
 
-    
     
     var maphilightoptions = {
         fill: false,
