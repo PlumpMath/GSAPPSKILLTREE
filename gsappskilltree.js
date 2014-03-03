@@ -38,10 +38,10 @@ $(document).ready(function(){
     
     
     if(typeof(spliturl[1]) != 'undefined') {
-        var taggedpostfix = spliturl[1].split("/tagged/");
+        var taggedpostfix = spliturl[1].split("/");
         console.log(taggedpostfix);
-        if(taggedpostfix.length > 1) { 
-            var thistagged = taggedpostfix[1];
+        if(taggedpostfix.length > 2) { 
+            var thistagged = taggedpostfix[3];
             //thistagged = name of tag we're currently on
             
             // if it's a single video, grab it and id current video
