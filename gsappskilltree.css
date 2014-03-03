@@ -1,8 +1,8 @@
 
 img { border:0px; }
 body { 
-background: {color:Background}; 
-color: {color:Text}; 
+background: #fcfeff; 
+color: #042839; 
 font-family: 'helvetica', Arial, sans-serif;
 font-size: 11px; 
 margin:0px; 
@@ -12,7 +12,7 @@ padding:0px;
 
 a:link, a:active, a:visited { 
 text-decoration: none;
-color: {color:Text};
+color: #042839;
 
 }
 a:hover { 
@@ -167,7 +167,7 @@ color: #fc0452;
 border-bottom: 0px solid #fc0452;
 }
 div.posts div.post div.postfoot a:hover {
-color: {color:Text};
+color: #042839;
 }
 
 /* don't display posts when on front page */
@@ -210,7 +210,7 @@ blockquote { margin-left:3px !important; }
 
 ::-webkit-scrollbar-thumb:vertical {background-color: #fc0452; height:200px;}
 ::-webkit-scrollbar-thumb:horizontal {background-color: #fc0452; height:10px !important;}
-::-webkit-scrollbar { height:10px; width:7px; background-color:{color:Background}; }
+::-webkit-scrollbar { height:10px; width:7px; background-color:#fcfeff; }
 
 div.tumblrAutoPager_page_info {
 display:none;
