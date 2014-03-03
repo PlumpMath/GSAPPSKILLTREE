@@ -1,0 +1,232 @@
+
+img { border:0px; }
+body { 
+background: {color:Background}; 
+color: {color:Text}; 
+font-family: 'helvetica', Arial, sans-serif;
+font-size: 11px; 
+margin:0px; 
+padding:0px;
+                line-height: 20px;
+}
+
+a:link, a:active, a:visited { 
+text-decoration: none;
+color: {color:Text};
+
+}
+a:hover { 
+text-decoration: none;
+color: {color:Accent};
+}
+
+/* ---------------------------------------------------- Funky Shit ------------------ */
+::selection,
+a::selection,
+img::selection {
+background: {color:Accent};
+color: #ffffff;
+}
+
+::-moz-selection {
+background: {color:Accent};
+color: #ffffff; 
+} 
+
+/* ---------------------------------------------------- Navigation ------------------ */
+div.nav {
+list-style: none;
+margin: 0;
+padding: 50px 0px 0px 50px;
+position: fixed;
+top: 0px;
+left: 0px;
+width: 525px;  
+line-height: 16px;
+background-color: #eaeaea;
+height: 100%;
+overflow: auto;
+}
+
+div.nav a{
+margin-bottom:3px;
+}
+
+div.nav h4 {
+margin:0 0 5px 0;
+padding:0;
+font-weight:bold;
+}
+div.nav li {
+padding: 0px;
+}
+div.nav li:first-child {
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 3px;
+}
+div.nav .logo img {
+max-width: 120px;
+height: auto;
+}
+
+#wf {
+    letter-spacing:1px;
+font-size:13px;
+margin:10px 0;
+}
+
+div.nav #textmenu {
+    position: relative;
+    z-index: 10;
+    width: 200px;
+}
+
+div.nav #imagemenu {
+    position: absolute;
+    left: 20px;
+    top: 25px;
+    z-index: 5;
+}
+
+
+
+
+/* ---------------------------------------------------- PhotoSet ------------------ */
+ul.photoset {
+list-style: none;
+margin: 0;
+padding: 0px;
+}
+ul.photoset li {
+padding-bottom: 10px;
+}
+ul.photoset li:last-child {
+padding-bottom: 0px !important;
+}
+
+/* ---------------------------------------------------- Audio ------------------ */
+img.albumart {
+width: 207px;
+height: 207px;
+}
+
+/* ---------------------------------------------------- Quote ------------------ */
+div.quote {
+font-size: 18px;
+font-family:georgia;
+font-weight:bold;
+line-height: 21px;
+}
+div.source {
+text-align: right;
+}
+ 
+
+/* ---------------------------------------------------- LinkPost ------------------ */
+div.posts div.post a.linkpost {
+font-size: 18px;
+font-family:georgia;
+font-weight:bold;
+line-height: 21px;
+text-decoration:none;
+border:none;
+}
+
+
+/* ---------------------------------------------------- Chat ------------------ */
+div.chat ul { list-style:none; margin:0px; padding:0px; }
+div.chat li { padding: 3px 0; }
+div.chat span.label {  }
+div.chat div.line {  }
+
+
+/* ---------------------------------------------------- Text ------------------ */
+.title {
+text-transform: uppercase;
+font-weight: bold;
+}
+
+/* ---------------------------------------------------- Posts ------------------ */
+div.posts {
+margin-left: 600px;
+margin-top: 100px;
+width: 500px;
+}
+div.posts div.post {
+margin-bottom: 100px;
+}
+div.posts div.post a {
+border-bottom: 1px solid {color:Accent};
+}
+div.posts div.post div.postfoot {
+color: {color:Accent};
+}
+div.posts div.post div.postfoot a {
+color: {color:Accent};
+border-bottom: 0px solid {color:Accent};
+}
+div.posts div.post div.postfoot a:hover {
+color: {color:Text};
+}
+
+/* don't display posts when on front page */
+body.frontpage div.post, body.frontpage div.pagination {
+    display: none;
+}
+
+/* set exception */
+body.frontpage div.post.frontpage {
+    display: block !important;
+}
+
+/* ---------------------------------------------------- Notes ------------------ */
+div.notes { margin-top: 75px; }
+ol.notes { padding: 0px; margin: 0px 5px; list-style-type: none; }
+ol.notes li.note { border-top: solid 0px #ccc; padding: 0 0 3px 0; }
+ol.notes li.note img.avatar {vertical-align: -4px; margin-right: 0px; width: 16px; height: 16px; }
+ol.notes li.note span.action { font-weight: normal; }
+ol.notes li.note span.action a { font-weight: normal; }
+ol.notes li.note .answer_content { font-weight: normal; }
+ol.notes li.note blockquote { border-color: none; padding: 1px 3px; margin: 0px 0px 0px 0px; }
+ol.notes li.note blockquote a { text-decoration: none; }
+
+
+/* ---------------------------------------------------- Pagination ------------------ */
+div.pagination {
+margin-bottom: 100px;
+}
+.current_page {
+font-weight: bold;
+background: {color:Accent};
+padding: 2px 6px 0px 6px;
+-webkit-border-radius: 18px;
+-moz-border-radius: 18px;
+border-radius: 18px;
+}
+
+/* ---------------------------------------------------- Stuff ------------------ */
+blockquote { margin-left:3px !important; }
+
+::-webkit-scrollbar-thumb:vertical {background-color: {color:Accent}; height:200px;}
+::-webkit-scrollbar-thumb:horizontal {background-color: {color:Accent}; height:10px !important;}
+::-webkit-scrollbar { height:10px; width:7px; background-color:{color:Background}; }
+
+div.tumblrAutoPager_page_info {
+display:none;
+}
+hr {
+display:none;
+}
+
+#tumblr_controls {
+   position: fixed !important;
+}
+
+.courselinkscurrent {
+    color: {color:Accent} !important;
+}
+#courselinks a {
+ text-decoration: underline;
+}
+
