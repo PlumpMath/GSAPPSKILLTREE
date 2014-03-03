@@ -17,19 +17,19 @@ color: {color:Text};
 }
 a:hover { 
 text-decoration: none;
-color: {color:Accent};
+color: #fc0452;
 }
 
 /* ---------------------------------------------------- Funky Shit ------------------ */
 ::selection,
 a::selection,
 img::selection {
-background: {color:Accent};
+background: #fc0452;
 color: #ffffff;
 }
 
 ::-moz-selection {
-background: {color:Accent};
+background: #fc0452;
 color: #ffffff; 
 } 
 
@@ -157,14 +157,14 @@ div.posts div.post {
 margin-bottom: 100px;
 }
 div.posts div.post a {
-border-bottom: 1px solid {color:Accent};
+border-bottom: 1px solid #fc0452;
 }
 div.posts div.post div.postfoot {
-color: {color:Accent};
+color: #fc0452;
 }
 div.posts div.post div.postfoot a {
-color: {color:Accent};
-border-bottom: 0px solid {color:Accent};
+color: #fc0452;
+border-bottom: 0px solid #fc0452;
 }
 div.posts div.post div.postfoot a:hover {
 color: {color:Text};
@@ -198,7 +198,7 @@ margin-bottom: 100px;
 }
 .current_page {
 font-weight: bold;
-background: {color:Accent};
+background: #fc0452;
 padding: 2px 6px 0px 6px;
 -webkit-border-radius: 18px;
 -moz-border-radius: 18px;
@@ -208,8 +208,8 @@ border-radius: 18px;
 /* ---------------------------------------------------- Stuff ------------------ */
 blockquote { margin-left:3px !important; }
 
-::-webkit-scrollbar-thumb:vertical {background-color: {color:Accent}; height:200px;}
-::-webkit-scrollbar-thumb:horizontal {background-color: {color:Accent}; height:10px !important;}
+::-webkit-scrollbar-thumb:vertical {background-color: #fc0452; height:200px;}
+::-webkit-scrollbar-thumb:horizontal {background-color: #fc0452; height:10px !important;}
 ::-webkit-scrollbar { height:10px; width:7px; background-color:{color:Background}; }
 
 div.tumblrAutoPager_page_info {
@@ -224,7 +224,7 @@ display:none;
 }
 
 .courselinkscurrent {
-    color: {color:Accent} !important;
+    color: #fc0452 !important;
 }
 #courselinks a {
  text-decoration: underline;
