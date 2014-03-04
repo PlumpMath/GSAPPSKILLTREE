@@ -195,6 +195,9 @@ ol.notes li.note blockquote a { text-decoration: none; }
 /* ---------------------------------------------------- Pagination ------------------ */
 div.pagination {
 margin-bottom: 100px;
+background-color: #CCCCCC;
+padding: 5px;
+width: 100%;
 }
 .current_page {
 font-weight: bold;
