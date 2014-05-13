@@ -1,0 +1,345 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+
+
+ 
+{block:IfGoogleAnalyticsID}
+    <script type="text/javascript">
+        //<![CDATA[
+        var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{text:Google Analytics ID}']);
+_gaq.push(['_trackPageview']);
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+//]]>
+</script>
+{/block:IfGoogleAnalyticsID}
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>{Title}</title>
+        <META NAME="Title" CONTENT="{Title}">
+  {block:Description}
+        <META NAME="Description" CONTENT="{MetaDescription}">
+  {/block:Description}
+        <link rel="shortcut icon" href="{Favicon}">
+        <link rel="alternate" type="application/rss+xml" href="{RSS}">
+
+    <link type="text/css" rel="stylesheet" media="all" href="http://provolot.github.io/GSAPPSKILLTREE/gsappskilltree.css">
+
+  <meta name="color:Background" content="#fcfeff"/>
+  <meta name="color:Text" content="#042839"/>
+  <meta name="color:Accent" content="#32E2C5"/>
+  <meta name="if:Large Pictures" content="0"/>
+  <meta name="if:Show RSS Link" content="1"/>
+  <meta name="if:Show Archive Link" content="1"/>
+  <meta name="if:Show Random Link" content="0"/>
+  <meta name="if:Show Likes Link" content="0"/>
+  <meta name="if:Show Mobile Link" content="0"/>
+  <meta name="if:Show Notes" content="0"/>
+  <meta name="if:Show Reblog Link" content="1"/>
+  <meta name="if:Show Tags" content="1"/>
+  <meta name="if:Infinite Scroll" content="0"/>
+  <meta name="image:Logo" content=""/>
+
+{block:ifInfiniteScroll}
+<script type="text/javascript" src="http://proto.jp/js/tumblrAutoPager.js"></script>
+{/block:ifInfiniteScroll}
+
+<script src="http://code.jquery.com/jquery-latest.js"></script>
+<script src="http://provolot.github.io/GSAPPSKILLTREE/jquery.maphilight.min.js"></script>
+<script src="http://provolot.github.io/GSAPPSKILLTREE/gsappskilltree.js"></script>
+
+</head>
+<body>
+
+
+
+
+<div class="nav">
+
+<div id="textmenu">
+    <div class="logo"><a href="//{Host}"><img src="http://provolot.github.io/GSAPPSKILLTREE/gsappskilltree_logo.jpg" /></a></div>
+    <br>
+
+        Courses:
+        <div id="courselinks">
+        <a id="adr2" href="//{Host}/tagged/adr2"><b>ADR2</b></a>: Week 
+        <a id="adr2week1" href="//{Host}/tagged/adr2week1">1</a> | 
+        <a id="adr2week2" href="//{Host}/tagged/adr2week2">2</a> |   
+        <a id="adr2week3" href="//{Host}/tagged/adr2week3">3</a> |   
+        <a id="adr2week4" href="//{Host}/tagged/adr2week4">4</a> |   
+        <a id="adr2week5" href="//{Host}/tagged/adr2week5">5</a> |
+        <a id="adr2week6" href="//{Host}/tagged/adr2week6">6</a><br>
+        <a id="clab" href="//{Host}/tagged/clab"><b>SIM</b></a>: Week 
+        <a id="clabweek1" href="//{Host}/tagged/clabweek1">1</a> |   
+        <a id="clabweek2" href="//{Host}/tagged/clabweek2">2</a> |   
+        <a id="clabweek3" href="//{Host}/tagged/clabweek3">3</a> |   
+        <a id="clabweek4" href="//{Host}/tagged/clabweek4">4</a>
+        </div>
+        
+        {block:HasPages}{block:Pages}
+        <li><a href="{URL}" target="_self">{Label}</a></li>
+        {/block:Pages}{/block:HasPages}
+        <br />
+        <br />
+</div>
+
+<div id="imagemenu">
+
+<!-- *********** IMAGEMAP START ***********  -->
+
+
+<img src="http://static.tumblr.com/jaodihj/RD1n3h85k/skilltree_imagemap_v7_nogray.png" width="670" height="1142" border="0" alt="" usemap="#SKILLTREE_imagemap_v4_Map" class="SKILLTREE_imagemap_Map">
+
+<map name="SKILLTREE_imagemap_v4_Map">
+<area shape="rect" alt="" coords="517,479,572,532" href="//{Host}/tagged/renderinganalysis" class=" clab clabweek4">
+<area shape="rect" alt="" coords="418,224,473,278" href="//{Host}/tagged/karamba" class=" clab clabweek4">
+<area shape="rect" alt="" coords="223,108,278,161" href="//{Host}/tagged/ghisovist" class=" clab clabweek4">
+<area shape="rect" alt="" coords="417,302,472,355" href="//{Host}/tagged/advancedvisualization" class=" adr2 adr2week2 clab clabweek1">
+<area shape="rect" alt="" coords="223,428,278,482" href="//{Host}/tagged/ghdataprocessing" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="320,349,375,402" href="//{Host}/tagged/attractorpoints" class=" adr2 adr2week2 clab clabweek2">
+<area shape="rect" alt="" coords="417,145,472,199" href="//{Host}/tagged/geco" class=" clab clabweek3">
+<area shape="rect" alt="" coords="417,66,472,120" href="//{Host}/tagged/heliotrope" class=" clab clabweek2">
+<area shape="rect" alt="" coords="223,23,278,77" href="//{Host}/tagged/environmentinrhino" class=" clab clabweek1">
+<area shape="rect" alt="" coords="126,460,181,514" href="//{Host}/tagged/pythonintro" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="223,758,278,812" href="//{Host}/tagged/maxanimationconstraints" class=" adr2 adr2week4">
+<area shape="rect" alt="" coords="320,713,375,767" href="//{Host}/tagged/maxinversekinematics" class=" adr2 adr2week4">
+<area shape="rect" alt="" coords="223,679,278,733" href="//{Host}/tagged/maxforwardkinematics" class=" adr2 adr2week4">
+<area shape="rect" alt="" coords="126,841,181,895" href="//{Host}/tagged/maxobjectsandcoordinates" class=" adr2 adr2week4">
+<area shape="rect" alt="" coords="320,551,375,605" href="//{Host}/tagged/ghanimation" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="320,429,375,483" href="//{Host}/tagged/interfacecreation">
+<area shape="rect" alt="" coords="320,270,375,324" href="//{Host}/tagged/paneling" class=" adr2 adr2week2 clab clabweek1">
+<area shape="rect" alt="" coords="320,190,375,243" href="//{Host}/tagged/ghpluginsintroduction" class=" clab clabweek2">
+<area shape="rect" alt="" coords="418,380,473,434" href="//{Host}/tagged/optimizationga" class=" clab clabweek2">
+<area shape="rect" alt="" coords="223,590,278,644" href="//{Host}/tagged/scriptingrhino" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="223,510,278,564" href="//{Host}/tagged/scriptingform" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="223,349,278,402" href="//{Host}/tagged/ghdataanalysis" class=" adr2 adr2week2 clab clabweek1">
+<area shape="rect" alt="" coords="223,270,278,324" href="//{Host}/tagged/ghtreesstructures" class=" adr2 adr2week2">
+<area shape="rect" alt="" coords="223,190,278,243" href="//{Host}/tagged/ghformgeneration" class=" adr2 adr2week1">
+<area shape="rect" alt="" coords="124,296,179,349" href="//{Host}/tagged/grasshopperintro" class=" adr2 adr2week1">
+<area shape="rect" alt="" coords="29,347,83,401" href="//{Host}/tagged/nodelogic" class=" adr2 adr2week1">
+<area shape="rect" alt="" coords="419,225,472,277" href="//{Host}/tagged/karamba" class=" clab clabweek4">
+<area shape="rect" alt="" coords="517,479,571,532" href="//{Host}/tagged/renderinganalysis" class=" clab clabweek4">
+<area shape="rect" alt="" coords="224,591,277,643" href="//{Host}/tagged/scriptingrhino" class=" adr2 adr2week3">
+<area shape="rect" alt="" coords="224,511,277,563" href="//{Host}/tagged/scriptingform" class=" adr2 adr2week3">
+
+<area shape="rect" alt="" coords="418,800,473,854" href="//{Host}/tagged/maxexpressions" class=" adr2 adr2week5">
+<area shape="rect" alt="" coords="223,842,278,895" href="//{Host}/tagged/maxparameters" class=" adr2 adr2week5">
+<area shape="rect" alt="" coords="320,880,375,934" href="//{Host}/tagged/maxparticles" class=" adr2 adr2week6">
+
+<area shape="rect" alt="" coords="223,921,277,975" href="//{Host}/tagged/maxphysicalsimulation" class=" adr2 adr2week6">
+<area shape="rect" alt="" coords="320,960,374,1014" href="//{Host}/tagged/maxdynamics" class=" adr2 adr2week6">
+<area shape="rect" alt="" coords="223,1000,278,1054" href="//{Host}/tagged/maxcrowds" class=" adr2 adr2week6">
+
+
+</map>
+
+
+
+<!-- *********** IMAGEMAP END ***********  -->
+</div>
+
+
+
+</div><!-- /nav -->
+
+
+
+
+<div class="posts">
+{block:Posts}
+<div class="post {TagsAsClasses}">
+
+{block:Text}
+  {block:Title}<a href="{Permalink}" class="title">{Title}</a>
+      <br />{/block:Title}
+        {Body}
+{/block:Text}
+
+
+{block:Photo}
+  {LinkOpenTag}<img src="{block:IfNotLargePictures}{PhotoURL-500}{/block:IfNotLargePictures}{block:IfLargePictures}{PhotoURL-HighRes}{/block:IfLargePictures}" alt="{PhotoAlt}" />{LinkCloseTag}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption} 
+{/block:Photo}
+
+
+{block:Photoset}
+<ul class="photoset">
+    {block:Photos} 
+      {block:IfLargePictures}
+        {block:HighRes}
+            <li><img src="{PhotoURL-HighRes}" /></li>
+        {/block:HighRes}
+      {/block:IfLargePictures}
+      {block:IfNotLargePictures}
+            <li><img src="{PhotoURL-500}" /></li>
+      {/block:IfNotLargePictures}
+    {/block:Photos}
+    </ul>
+          {Caption}
+{/block:Photoset}
+
+{block:Quote}
+<div class="quote">{Quote}</div>
+    {block:Source}<div class="source">&mdash; {Source}</div>{/block:Source} 
+{/block:Quote}
+
+{block:Link}
+<a href="{URL}" class="linkpost" {Target}>&#10140; {Name}</a>
+{block:Description}
+   <div class="caption">{Description}</div>
+{/block:Description}
+{/block:Link}
+
+{block:Chat}
+<div class="chat">
+{block:Title}<a href="{Permalink}" class="title">{Title}</a>{/block:Title}
+<ul>
+{block:Lines}
+<li class="{Alt}">
+<div class="line">
+        {block:Label}<b>{Label}</b>{/block:Label} 
+         {Line}
+</div>
+</li>
+{/block:Lines}
+</ul>
+</div>
+{/block:Chat}
+
+{block:Audio}
+<div style="float:left; padding-right: 15px;">
+  {block:AlbumArt}
+    <img src="{AlbumArtURL}" class="albumart" />
+  {/block:AlbumArt}
+
+  {AudioPlayerBlack}
+</div>
+
+     {block:Caption}<div class="caption">{Caption}</div>{/block:Caption}
+<br style="clear:both;" />
+{/block:Audio}
+
+
+{block:Video}
+<div class="video">
+     {Video-500}
+        {block:Caption}<div class="caption">{Caption}</div>{/block:Caption} 
+</div>
+{/block:Video}
+
+
+{block:Date}
+<div class="postfoot">
+  <a href="{Permalink}">&#10006; Permalink
+                    {block:IfShowNotes}
+                      {block:NoteCount}
+                        {NoteCountWithLabel}
+                      {/block:NoteCount} 
+                    {/block:IfShowNotes}
+                  </a>
+
+{block:ContentSource}
+    <a href="{SourceURL}">&emsp;&#10070;
+        Source:
+        {block:SourceLogo}
+            <img src="{BlackLogoURL}" width="{LogoWidth}"
+            height="{LogoHeight}" alt="{SourceTitle}" />
+        {/block:SourceLogo}
+        {block:NoSourceLogo}
+            {SourceTitle}
+        {/block:NoSourceLogo}
+    </a>
+{/block:ContentSource}
+
+{block:ifShowReblogLink}
+  <a href="{ReblogURL}">&emsp;&#10226; Reblog</a>
+{/block:ifShowReblogLink}
+
+{block:ifShowTags}
+{block:HasTags}
+&emsp;
+  {block:Tags}
+    <a href="{TagURL}">&#10002;{Tag}</a>&nbsp;
+  {/block:Tags}
+{/block:HasTags}
+{/block:ifShowTags}
+</div>
+{/block:Date}
+
+
+{block:Permalink}
+{block:PostNotes}
+<div class="notes">
+   {block:NoteCount}
+       <div class="title">{NoteCountWithLabel}</div>
+   {/block:NoteCount} 
+
+        {PostNotes}
+
+</div>
+{/block:PostNotes}
+{/block:Permalink}
+
+
+</div><!-- /post -->
+{/block:Posts}
+
+
+
+{block:ifNotInfiniteScroll}
+
+        {block:Pagination}
+<div class="pagination">
+            {block:PreviousPage}
+                <a href="{PreviousPage}">&laquo; Previous</a>
+            {/block:PreviousPage}
+
+            {block:JumpPagination length="10"}
+                {block:CurrentPage}
+                    <span class="current_page">{PageNumber}</span>
+                {/block:CurrentPage}
+
+                {block:JumpPage}
+                    <a class="jump_page" href="{URL}">{PageNumber}</a>
+                {/block:JumpPage}
+            {/block:JumpPagination}
+
+            {block:NextPage}
+                <a href="{NextPage}">Next &raquo;</a>
+            {/block:NextPage}
+        {/block:Pagination}
+</div>
+{/block:ifNotInfiniteScroll}
+
+
+
+</div><!-- /posts -->
+
+<!-- Start of StatCounter Code for Tumblr -->
+<script type="text/javascript">
+var sc_project=9802735; 
+var sc_invisible=1; 
+var sc_security="84c98454"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="stat tracker
+for tumblr" href="http://statcounter.com/tumblr/"
+target="_blank"><img class="statcounter"
+src="http://c.statcounter.com/9802735/0/84c98454/1/"
+alt="stat tracker for tumblr"></a></div></noscript>
+<!-- End of StatCounter Code for Tumblr -->
+
+
+</body>
+</html>
